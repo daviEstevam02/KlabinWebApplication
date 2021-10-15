@@ -1,0 +1,36 @@
+.container{
+}
+.imageContainer{
+    width: 100%;
+}
+.imageContainer img{
+    max-width: 150px;
+    margin-top: 20px;
+}
+form{
+ margin: 0 auto;
+}
+form h2{
+    font-size: 30px;
+    color:#696969;
+    
+}
+form input{
+    border: 0;
+    border-bottom: 1px solid #CFCFCF;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+form button { 
+    border: 0;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #00A65A;
+    color: #fff;
+}
+form button:hover{
+    cursor: pointer;
+}
