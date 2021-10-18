@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header button{
+    border: none;
+    background: none;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+
+}
+.header button:hover{
+    cursor: pointer;
+}
+.content{
+    margin-top: 6rem;
+}
+.imageContainer img{
+    max-width: 150px;
+    margin-top: 20px;
+}
+.container h1{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+}
+.cardSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardSection .card{
+    background-color: #eaeaea ;
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 1rem 2rem;
+    
+}
+.cardSection .card:hover{
+    cursor: pointer;
+    background-color: #f1efef;
+}
+.card .headerCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+.headerCard h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.status{
+    background-color: #00A65A;
+    border-radius: 20px ;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.status p {
+    margin-top: 5px;
+}
+.body h2{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.footer{
+    background-color: #3992FA;
+    width: 100px;
+    border-radius: 20px;
+    color: #fff;
+    margin: auto;
+}

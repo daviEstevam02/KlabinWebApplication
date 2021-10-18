@@ -1,4 +1,7 @@
 .container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
 }
 .imageContainer{
     width: 100%;
@@ -7,30 +10,38 @@
     max-width: 150px;
     margin-top: 20px;
 }
-form{
- margin: 0 auto;
+.content{
+    margin-top: 5rem;
+    display: table-caption;
+    width: 600px;
+    margin-left: 9rem;
 }
-form h2{
+.loginForm{
+    margin: 0 auto;
+}
+
+.loginForm h2{
     font-size: 30px;
     color:#696969;
-    
 }
-form input{
+.loginForm input{
     border: 0;
     border-bottom: 1px solid #CFCFCF;
-    width: 300px;
+    width: 450px;
     padding: 15px;
     text-align: center;
+    margin-top: 20%;
 }
-form button { 
+.loginForm button { 
     border: 0;
-    width: 300px;
+    width: 450px;
     padding: 15px;
     text-align: center;
     border-radius: 10px;
     background-color: #00A65A;
     color: #fff;
+    margin-top: 15%;
 }
-form button:hover{
+.loginForm button:hover{
     cursor: pointer;
 }
